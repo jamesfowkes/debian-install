@@ -26,4 +26,5 @@ Resources for installing debian on a new system
   * arduino
   * scons
   * virtualenvwrapper
-
+  * wakeonlan
+    * Add any MAC and IP addresses to /etc/ethers
