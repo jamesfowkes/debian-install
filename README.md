@@ -8,10 +8,11 @@ Resources for installing debian on a new system
   * sudo adduser james sudo
 2. Change window manager to gnome classic in login screen
 3. Update apt repository and install all updates
-4. If nvidia properatary driver is required:
+4a. If nvidia properatary driver is required:
   * Instructions [here](https://wiki.debian.org/NvidiaGraphicsDrivers)
   * Once installed, may have to manually edit xorg.conf to get 2nd monitor working.
   * See xorg.conf files in this git repo.
+4b. If using nouveau driver, use the other xorg.conf file in this repo, which forces the settings for DVI-I-2
 5. Enable Ctrl-Alt-Backspace by running dpkg-reconfigure keyboard-configuration
 6. Add Alt-F2 custom shortcut for terminal in keyboard settings
 7. List of software to install:
